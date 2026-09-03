@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0a0a">
+  <title>Contact — ShineCX</title>
+  <meta name="description" content="Contact ShineCX / Bobbi Jo Smith in Morgan Hill, California. 71wagon@gmail.com. Request a quote or capability statement.">
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="grid-bg" aria-hidden="true"></div>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">
+        <img src="assets/mark.svg" width="34" height="34" alt="">
+        <span class="wordmark">SHINECX</span>
+      </a>
+      <span class="header-spacer"></span>
+      <nav class="nav-desktop" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+      <div class="avail"><span class="led" aria-hidden="true"></span> Available for Projects</div>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+  <nav id="mobile-nav" class="nav-panel" aria-label="Mobile">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="about.html">About</a>
+    <a href="contact.html" aria-current="page">Contact</a>
+    <div class="avail"><span class="led" aria-hidden="true"></span> Available for Projects</div>
+  </nav>
+
+  <main id="main" class="page">
+    <div class="wrap">
+      <p class="page-kicker">Channel</p>
+      <h1 class="page-title">Contact</h1>
+      <div class="gold-rule" aria-hidden="true"></div>
+      <p class="page-lede">Available for projects. Request a quote or a capability statement. This form opens your mail client — nothing is stored on the server.</p>
+
+      <div class="contact-grid">
+        <aside class="panel">
+          <h2>Direct</h2>
+          <p>Morgan Hill, California.</p>
+          <ul class="meta-list">
+            <li>
+              <span>Email</span>
+              <a href="mailto:71wagon@gmail.com">71wagon@gmail.com</a>
+            </li>
+            <li>
+              <span>Location</span>
+              Morgan Hill, California
+            </li>
+            <li>
+              <span>Capability statement</span>
+              <a href="mailto:71wagon@gmail.com?subject=Request%20Capability%20Statement">Request via email</a>
+            </li>
+            <li>
+              <span>Status</span>
+              Available for projects
+            </li>
+          </ul>
+        </aside>
+
+        <form class="panel form-grid" id="quote-form" action="mailto:71wagon@gmail.com" method="get">
+          <h2>Project inquiry</h2>
+          <p>Fields go out as a drafted email to 71wagon@gmail.com.</p>
+          <label>
+            Name
+            <input type="text" name="name" autocomplete="name" required>
+          </label>
+          <label>
+            Organization
+            <input type="text" name="org" autocomplete="organization">
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" autocomplete="email" required>
+          </label>
+          <label>
+            Project type
+            <select name="type">
+              <option value="BAS / DDC Commissioning">BAS / DDC Commissioning</option>
+              <option value="Metrology &amp; Calibration Lab Buildout">Metrology &amp; Calibration Lab Buildout</option>
+              <option value="Point-to-Point Validation">Point-to-Point Validation</option>
+              <option value="Controls Programming &amp; Integration">Controls Programming &amp; Integration</option>
+              <option value="Other">Other</option>
+            </select>
+          </label>
+          <label>
+            Message
+            <textarea name="message" required placeholder="Facility type, timeline, platform (Honeywell, Trane, Niagara 4, Metasys)…"></textarea>
+          </label>
+          <button class="btn btn-gold" type="submit">Request a Quote</button>
+          <p class="form-note">If the mail client does not open, write directly to <a href="mailto:71wagon@gmail.com">71wagon@gmail.com</a>.</p>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© 2026 ShineCX · Bobbi Jo Smith</span>
+      <span>Morgan Hill, California · <a href="mailto:71wagon@gmail.com">71wagon@gmail.com</a></span>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
